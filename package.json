@@ -1,24 +1,28 @@
 {
   "name": "xxmi-file-io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://github.com/xxmi/file-io#readme",
+  "files": [
+    "lib",
+    "test"
+  ],
+  "keywords": [
+    "file-io"
+  ],
+  "license": "Apache-2.0",
+  "main": "./lib/index.js",
+  "author": "xxmi.org",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xxmi/file-io.git"
   },
-  "keywords": [
-    "file-io"
-  ],
-  "author": "xxmi.org",
-  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "bugs": {
     "url": "https://github.com/xxmi/file-io/issues"
   },
-  "homepage": "https://github.com/xxmi/file-io#readme",
   "dependencies": {
     "log4js": "^2.5.3"
   }
