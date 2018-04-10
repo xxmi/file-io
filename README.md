@@ -2,4 +2,4 @@
 
 # Use
 
-npm install file-io
+npm install xxmi-file-io
